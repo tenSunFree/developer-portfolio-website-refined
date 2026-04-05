@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Experience matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <ul
+      class="experienceList"
+    >
+      <div
+        style="opacity: 0; transform: translateX(-100vw);"
+      >
+        <div
+          style="opacity: 0; transform: translateX(50px);"
+        >
+          <li
+            class="experienceRole"
+          >
+            <span
+              aria-hidden="true"
+              class="timelineDot"
+            />
+            <div
+              class="dates"
+            >
+              <div
+                class="date"
+              >
+                formatted-2020-01-01 — formatted-2021-01-01
+              </div>
+              <div
+                class="period"
+              >
+                period-2020-01-01-2021-01-01
+              </div>
+            </div>
+            <div
+              class="roleRow"
+            >
+              <h3
+                class="role"
+              >
+                Frontend Developer
+              </h3>
+            </div>
+            <div
+              class="duties"
+            >
+              Developed UI components
+            </div>
+            <button
+              aria-expanded="false"
+              class="showMore"
+            >
+              Show more
+            </button>
+            <ul
+              class="skills"
+            >
+              <li>
+                <span
+                  class="area"
+                >
+                  Frontend
+                </span>
+                <div
+                  class="tagList"
+                >
+                  <span
+                    class="tag"
+                  >
+                    React
+                  </span>
+                  <span
+                    class="tag"
+                  >
+                    TypeScript
+                  </span>
+                </div>
+              </li>
+              <li>
+                <span
+                  class="area"
+                >
+                  Testing
+                </span>
+                <div
+                  class="tagList"
+                >
+                  <span
+                    class="tag"
+                  >
+                    Jest
+                  </span>
+                  <span
+                    class="tag"
+                  >
+                    RTL
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </div>
+        <div
+          style="opacity: 0; transform: translateX(50px);"
+        >
+          <li
+            class="experienceRole"
+          >
+            <span
+              aria-hidden="true"
+              class="timelineDot"
+            />
+            <div
+              class="dates"
+            >
+              <div
+                class="date"
+              >
+                formatted-2021-02-01 — Present
+              </div>
+              <div
+                class="period"
+              >
+                period-2021-02-01-null
+              </div>
+            </div>
+            <div
+              class="roleRow"
+            >
+              <h3
+                class="role"
+              >
+                Fullstack Developer
+              </h3>
+              <span
+                class="currentBadge"
+              >
+                Current
+              </span>
+            </div>
+            <div
+              class="duties"
+            >
+              Built APIs
+            </div>
+            <button
+              aria-expanded="false"
+              class="showMore"
+            >
+              Show more
+            </button>
+          </li>
+        </div>
+      </div>
+    </ul>
+  </section>
+</DocumentFragment>
+`;
