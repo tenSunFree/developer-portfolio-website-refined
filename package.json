@@ -1,5 +1,5 @@
 {
-    "name": "developer-portfolio-website",
+    "name": "developer-portfolio-website-refined",
     "version": "2.0.0",
     "description": "Fully customizable, modern developer portfolio template built with Typescript, React and Next.js",
     "author": "Sun <a0985092384@gmail.com>",
@@ -13,11 +13,11 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/miksrv/developer-portfolio-website.git"
+        "url": "https://github.com/tenSunFree/developer-portfolio-website-refined.git"
     },
     "homepage": "https://miksoft.pro",
     "bugs": {
-        "url": "https://github.com/miksrv/developer-portfolio-website/issues"
+        "url": "https://github.com/tenSunFree/developer-portfolio-website-refined/issues"
     },
     "scripts": {
         "dev": "next dev --webpack",

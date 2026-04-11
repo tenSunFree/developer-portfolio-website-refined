@@ -3006,9 +3006,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"developer-portfolio-website@workspace:.":
+"developer-portfolio-website-refined@workspace:.":
   version: 0.0.0-use.local
-  resolution: "developer-portfolio-website@workspace:."
+  resolution: "developer-portfolio-website-refined@workspace:."
   dependencies:
     "@eslint/compat": "npm:^2.0.3"
     "@eslint/js": "npm:^9.39.4"

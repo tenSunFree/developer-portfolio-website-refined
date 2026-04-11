@@ -6,6 +6,21 @@
 .pnp.js
 .yarn/install-state.gz
 
+# Yarn Berry / Yarn 4
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Optional Yarn files to ignore explicitly
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
 # testing
 /coverage
 
@@ -37,3 +52,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI / Local assistant tools
+.claude/
+.cursor/
+.cursorignore
+.windsurf/
+.codeium/
+.continue/
+.gemini/
+.aider*
+aider.conf.yml
+.openai/
+.copilot/
+.idx/
+.roo/
+.cline/

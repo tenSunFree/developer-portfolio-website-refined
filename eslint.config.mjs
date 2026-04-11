@@ -31,6 +31,7 @@ export default defineConfig([
     // register all the configs up-front
     {
         ignores: [
+            '**/.claude/**',
             '**/.yarn/**',
             '**/eslint.config.mjs',
             '**/declarations.d.ts',
