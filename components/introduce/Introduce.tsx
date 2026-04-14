@@ -16,38 +16,29 @@ const divisor = 1000 * 60 * 60 * 24 * 365.2421897
 
 export const Introduce: React.FC = () => {
     const data = useSiteData()
-
     const [myAge, setMyAge] = React.useState<string>('')
     const [myExp, setMyExp] = React.useState<string>('')
-
     const expTime = useMemo(() => {
         const firstDate = data?.experience?.[0]?.period ? findEarliestDate(data.experience) : null
-
         return new Date(firstDate ?? '2007-10-15T10:00:00').getTime()
     }, [data?.experience])
-
     const birthTime = useMemo(() => {
         return new Date(data?.biography?.birthDate ?? '1989-09-09T05:15:00').getTime()
     }, [data?.biography?.birthDate])
-
     const dateUpdate = new Date(update).toLocaleDateString('en-us', {
         day: 'numeric',
         month: 'short',
         weekday: 'long',
         year: 'numeric'
     })
-
     const tick = () => {
         setMyAge(((Date.now() - birthTime) / divisor).toFixed(9))
         setMyExp(((Date.now() - expTime) / divisor).toFixed(9))
     }
-
     useEffect(() => {
         const timer = setInterval(() => tick(), 100)
-
         return () => clearInterval(timer)
     }, [birthTime, expTime])
-
     return (
         <section className={styles.introduceSection}>
             {/* Avatar with animated glow ring */}
@@ -67,7 +58,6 @@ export const Introduce: React.FC = () => {
                     />
                 </div>
             </div>
-
             <div className={styles.infoContainer}>
                 <div className={styles.header}>
                     <div className={styles.title}>
@@ -76,7 +66,6 @@ export const Introduce: React.FC = () => {
                             {/* eslint-disable-next-line react/jsx-max-depth */}
                             <span>{data?.biography?.name}</span>
                         </h1>
-
                         <div className={styles.links}>
                             {data?.contactLinks?.map((item) => (
                                 <Link
@@ -107,7 +96,6 @@ export const Introduce: React.FC = () => {
                         </div>
                     )}
                 </div>
-
                 {/* Live counter pills */}
                 <div className={styles.counterPills}>
                     <div className={styles.pill}>
@@ -119,7 +107,6 @@ export const Introduce: React.FC = () => {
                         <span className={styles.pillLabel}>{'Experience'}</span>
                     </div>
                 </div>
-
                 {/* Location / Timezone / Updated */}
                 <ul className={styles.factsList}>
                     {[
@@ -133,7 +120,6 @@ export const Introduce: React.FC = () => {
                         </li>
                     ))}
                 </ul>
-
                 <div className={styles.description}>
                     <p>
                         {'I design systems, define'} <b>{'technical direction'}</b>
@@ -146,7 +132,6 @@ export const Introduce: React.FC = () => {
                         }
                     </p>
                 </div>
-
                 {/* CTA buttons */}
                 <div className={styles.ctaGroup}>
                     <a

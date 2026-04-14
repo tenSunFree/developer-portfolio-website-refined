@@ -44,7 +44,7 @@ describe('Introduce Component', () => {
         // eslint-disable-next-line @typescript-eslint/no-require-imports,@typescript-eslint/no-var-requires
         jest.spyOn(require('@/utils'), 'useSiteData').mockReturnValue({
             contactLinks: [
-                { link: 'https://github.com/miksrv', label: 'GitHub', icon: 'github' },
+                { link: 'https://github.com/tenSunFree', label: 'GitHub', icon: 'github' },
                 { link: 'https://t.me/miksoft', label: 'Telegram', icon: 'telegram' }
             ]
         })
@@ -53,7 +53,7 @@ describe('Introduce Component', () => {
 
         const githubLink = await screen.findByTitle('GitHub')
         expect(githubLink).toBeInTheDocument()
-        expect(githubLink).toHaveAttribute('href', 'https://github.com/miksrv')
+        expect(githubLink).toHaveAttribute('href', 'https://github.com/tenSunFree')
 
         const telegramLink = await screen.findByTitle('Telegram')
         expect(telegramLink).toBeInTheDocument()

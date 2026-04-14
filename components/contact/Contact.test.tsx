@@ -8,7 +8,7 @@ jest.mock('@/utils', () => ({
     useSiteData: () => ({
         biography: { availableForWork: true },
         contactLinks: [
-            { icon: 'github', label: 'GitHub', link: 'https://github.com/miksrv' },
+            { icon: 'github', label: 'GitHub', link: 'https://github.com/tenSunFree' },
             { icon: 'telegram', label: 'Telegram', link: 'https://t.me/miksoft' }
         ]
     })
@@ -33,7 +33,7 @@ describe('Contact', () => {
 
     it('renders social links with correct hrefs', () => {
         render(<Contact />)
-        expect(screen.getByTitle('GitHub')).toHaveAttribute('href', 'https://github.com/miksrv')
+        expect(screen.getByTitle('GitHub')).toHaveAttribute('href', 'https://github.com/tenSunFree')
         expect(screen.getByTitle('Telegram')).toHaveAttribute('href', 'https://t.me/miksoft')
     })
 })

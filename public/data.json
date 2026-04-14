@@ -1,10 +1,14 @@
 {
+    "site": {
+        "url": "https://github.com/tenSunFree",
+        "avatar": "/avatar.webp"
+    },
     "biography": {
         "name": "Sun",
-        "title": "Principal Engineer · Software Architect · Tech Lead",
-        "location": "California, USA",
-        "timezone": "Pacific, UTC-07:00",
-        "birthDate": "1989-09-09T05:15:00",
+        "title": "Android/Flutter/React/Go - Developer",
+        "location": "Taipei, Taiwan",
+        "timezone": "Asia/Taipei, UTC+08:00",
+        "birthDate": "1988-12-23T00:15:00",
         "availableForWork": false,
         "bio": {
             "lead": "Principal-level engineer with 19+ years of end-to-end ownership across government, media, and technology. I define technical strategy, architect systems from the ground up, and lead engineering teams through complete delivery cycles — from the first design whiteboard to live production at scale.",
@@ -20,22 +24,7 @@
         {
             "icon": "github",
             "label": "GitHub",
-            "link": "https://github.com/miksrv"
-        },
-        {
-            "icon": "telegram",
-            "label": "Telegram",
-            "link": "https://t.me/miksoft"
-        },
-        {
-            "icon": "facebook",
-            "label": "Facebook",
-            "link": "https://facebook.com/miksoft.pro"
-        },
-        {
-            "icon": "linkedin",
-            "label": "LinkedIn",
-            "link": "https://www.linkedin.com/in/mikcatsvill/"
+            "link": "https://github.com/tenSunFree"
         }
     ],
     "skills": [
@@ -81,21 +70,21 @@
             "image": "/images/observatory.webp",
             "title": "Automated Home Observatory",
             "link": "https://astro.miksoft.pro/",
-            "github": "https://github.com/miksrv/astronomy-portal",
+            "github": "https://github.com/tenSunFree/astronomy-portal",
             "description": "Designed and built a fully automated observatory platform from scratch — integrating Raspberry Pi, Arduino, and Python into a unified control system for remote telescope operation and image capture. The web layer delivers real-time data streaming, user authentication, and a celestial events calendar. Every layer — hardware interface, automation engine, backend API, and frontend — owned and shipped solo."
         },
         {
             "image": "/images/meteostation.webp",
             "title": "IoT Weather Station",
             "link": "https://meteo.miksoft.pro/",
-            "github": "https://github.com/miksrv/arduino-weather-station",
+            "github": "https://github.com/tenSunFree/arduino-weather-station",
             "description": "End-to-end IoT system: custom Arduino firmware for multi-sensor data collection, a production REST API serving real-time and historical readings, and a frontend dashboard for visualization. Integrated into the observatory pipeline as an atmospheric gate — imaging sessions are automatically blocked under poor conditions. Firmware, API, and UI built in-house."
         },
         {
             "image": "/images/asteroid.webp",
             "title": "Asteroid Proximity Tracker",
             "link": "https://asteroid.miksoft.pro/",
-            "github": "https://github.com/miksrv/asteroid-monitoring",
+            "github": "https://github.com/tenSunFree/asteroid-monitoring",
             "description": "Production data platform consuming the NASA NeoWS API to track near-Earth asteroid approaches in real time. Surfaces close-approach windows, velocity, estimated diameter, and orbital paths — transforming raw orbital mechanics data into an accessible dashboard deployed and serving live users."
         },
         {
@@ -285,7 +274,7 @@
     ],
     "seo": {
         "index": {
-            "title": "Sun — Principal Engineer · Software Architect · Tech Lead",
+            "title": "Sun — Android/Flutter/React/Go - Developer",
             "description": "Principal-level engineer with 19+ years of end-to-end ownership. I design systems, define technical direction, lead engineering teams, and ship production software across frontend, backend, and infrastructure."
         },
         "activity": {

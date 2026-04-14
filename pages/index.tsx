@@ -51,12 +51,12 @@ const MainPage: React.FC<MainPageProps> = ({ githubData }) => {
                     images: [
                         {
                             height: 1333,
-                            url: 'https://miksoft.pro/avatar.webp',
+                            url: data?.site ? `${data.site.url}${data.site.avatar}` : undefined,
                             width: 1000
                         }
                     ],
                     locale: 'en-US',
-                    siteName: 'miksoft.pro'
+                    siteName: data?.site?.url
                 }}
             />
 
